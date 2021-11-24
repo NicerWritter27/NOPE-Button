@@ -1,0 +1,26 @@
+{
+   "browser_action": {
+      "default_icon": {
+         "128": "Images/Logo_128.png",
+         "64": "Images/Logo_64.png",
+         "48": "Images/Logo_48.png",
+         "32": "Images/Logo_32.png",
+         "16": "Images/Logo_16.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "description": "Play the nope audio (may take time to open)",
+   "icons": {
+         "128": "Images/Logo_128.png",
+         "64": "Images/Logo_64.png",
+         "48": "Images/Logo_48.png",
+         "32": "Images/Logo_32.png",
+         "16": "Images/Logo_16.png"
+   },
+   "manifest_version": 2,
+   "name": "NOPE button",
+   "offline_enabled": true,
+   "permissions": [ "storage", "unlimitedStorage" ],
+   "short_name": "NOPE",
+   "version": "1.0.0"
+}
